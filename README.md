@@ -88,6 +88,20 @@ University ethics procedures datasets include:
 
 # screenshots
 <img src="Picture12.png">
+<img src="Picture13.png">
+<img src="Picture14.png">
+<img src="Picture15.png">
+<img src="Picture16.png">
+<img src="Picture17.png">
+<img src="Picture18.png">
+<img src="Picture19.png">
+<img src="Picture20.png">
+<img src="Picture21.png">
+<img src="Picture22.png">
+<img src="Picture23.png">
+<img src="Picture24.png">
+<img src="Picture25.png">
+<img src="Picture26.png">
 
 # 📋 Data Quality Control Analysis
 
