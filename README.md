@@ -87,7 +87,7 @@ University ethics procedures datasets include:
 - Accurate data for informed infrastructure planning  
 
 # screenshots
-<img src="Picture.12.png">
+<img src="Picture12.png">
 
 # 📋 Data Quality Control Analysis
 
