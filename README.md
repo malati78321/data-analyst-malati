@@ -86,7 +86,8 @@ University ethics procedures datasets include:
 - Scalable, automated workflows via AWS  
 - Accurate data for informed infrastructure planning  
 
----
+# screenshots
+<img src= "Picture.12.png">
 
 # 📋 Data Quality Control Analysis
 
