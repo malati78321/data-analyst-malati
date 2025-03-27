@@ -1,88 +1,152 @@
 # data-analyst-malati
-# 📘 Academic Ethics Procedure Analysis
+# 📊 Data Wrangling Analysis
 
-## 🎓 Project Title
-**Assessment and Implementation of Academic Ethics Procedures in Higher Education Institutions**
+## 📌 Project Title
+**Data Wrangling Analysis of Academic Institutions Implementation**
 
 ---
 
 ## 📝 Project Description
-This project investigates the framework and application of ethical procedures within academic institutions. Focusing on transparency, fairness, and academic integrity, this initiative evaluates how universities document, monitor, and enforce ethical behavior in teaching, research, student conduct, and administrative practices.
+This project utilizes cloud computing services to execute large-scale data wrangling operations on Academic Institutions data. It relies on AWS Glue along with Amazon S3 and other cloud services to produce precise and useful aggregated data through data cleaning and transformation of multiple city-related datasets.
 
 ---
 
 ## 🎯 Objective
-The goal of this project is to evaluate current academic ethics procedures and recommend a more standardized and enforceable ethics framework that promotes academic integrity and supports fair and respectful practices across campuses.
+To carry out automated and scalable data wrangling on Academic Institutions (Ethics Procedures) datasets using cloud computing services for cost-effective and efficient data processing.
 
 ---
 
 ## 📚 Background
-Academic institutions are expected to uphold ethical standards in all their operations. These include fair grading systems, plagiarism prevention, transparent research practices, conflict of interest disclosures, and proper faculty-student relationships. However, inconsistencies in policies and lack of enforcement often lead to unethical practices that harm institutional credibility. This project analyzes these gaps and provides recommendations for building a more accountable ethical culture.
+Academic Institutions maintain full ethics protocols, which include zoning, land use, infrastructure, and municipal service data. Data wrangling improves the quality, scalability, and automation of this data, enhancing its utility in research and policy-making.
 
 ---
 
-## 🔍 Scope
-- Code of conduct implementation  
-- Plagiarism prevention and response  
-- Research ethics enforcement  
-- Academic grievance redressal mechanisms  
-- Ethics training for faculty, staff, and students
+## 🧾 Dataset
+University ethics procedures datasets include:
+- Zoning and land use maps
+- Property boundaries
+- Road networks and infrastructure
+- Population, business activity, crime, and environmental data
 
 ---
 
-## 🛠️ Methodology
+## 🔍 Methodology
 
-1. **Policy Collection & Review**  
-   - Gather existing ethics policies from different institutions to compare and contrast standard practices.
+### 1. Data Ingestion & Collection
+- Store raw data in Amazon S3
+- Use AWS Glue Crawlers to detect schema and populate the AWS Glue Data Catalog
 
-2. **Gap Assessment**  
-   - Evaluate these policies for gaps in enforcement, student/faculty awareness, and procedural clarity.
+### 2. Data Assessment
+- Use AWS Glue DataBrew to check for missing values and duplicates
+- Document inconsistencies and data types
+- Log issues with Amazon CloudWatch
 
-3. **Survey & Interview**  
-   - Conduct surveys with students and faculty to understand ethical challenges and their awareness of existing procedures.
+### 3. Data Cleaning
+- Impute missing values using AWS Glue
+- Standardize categories with AWS Lambda
 
-4. **Framework Design**  
-   - Develop a comprehensive ethics procedure framework incorporating policy, enforcement tools, and reporting systems.
+### 4. Data Transformation
+- Transform types using AWS Glue ETL scripts
+- Generate new metrics (e.g., average traffic volume)
+- Summarize trends (monthly/quarterly)
 
-5. **Training Module Creation**  
-   - Design a workshop or online training curriculum on ethics in academia, tailored for both students and faculty.
+### 5. Data Consolidation
+- Connect datasets using unique IDs
+- Combine sources and run DataBrew jobs
 
-6. **Review & Validation**  
-   - Present the framework to stakeholders (academic boards, ethics committees) for review and validation.
+### 6. Documentation & Validation
+- Record process in AWS Glue Data Catalog
+- Validate data using Amazon Athena
 
 ---
 
-## 🧰 Tools & Resources Used
-- Google Forms (for surveys)  
-- Excel/Google Sheets (for analysis)  
-- Google Docs/MS Word (for documentation)  
-- Institutional websites and ethics policies
+## 🧰 Tools & Technologies
+- **Data Storage:** Amazon S3  
+- **Data Wrangling:** AWS Glue, AWS Glue DataBrew, AWS Lambda  
+- **Validation:** AWS Glue Data Catalog, Amazon Athena  
+- **Monitoring:** Amazon CloudWatch, AWS CloudTrail  
 
 ---
 
 ## 📦 Deliverables
-- Final Ethics Procedure Framework Document  
-- Survey Reports and Findings  
-- Ethics Workshop Materials and Presentation  
-- Documentation of Recommendations  
+- Cleaned and transformed dataset in Amazon S3  
+- Overview of wrangling processes  
+- Amazon QuickSight visualizations: air quality, traffic, urban services  
+- Problems identified & solutions applied  
 
 ---
 
 ## 🗓️ Project Timeline
-
-| Phase                        | Duration  |
-|-----------------------------|-----------|
-| Policy Collection & Review  | 1 Week    |
-| Survey and Gap Analysis     | 1 Week    |
-| Framework Development       | 1 Week    |
-| Documentation & Presentation| 1 Week    |
-
-**Total Project Duration: 4 Weeks**
+**Total Duration:** 4 Weeks
 
 ---
 
 ## ✅ Expected Outcomes
-- A clear and enforceable ethics framework for academic institutions  
-- Improved awareness and training among students and staff  
-- Reduction in academic misconduct through better prevention systems  
-- Standardized ethical guidelines and reporting tools  
+- Enhanced data quality for planning and public service improvements  
+- Scalable, automated workflows via AWS  
+- Accurate data for informed infrastructure planning  
+
+---
+
+# 📋 Data Quality Control Analysis
+
+## 📌 Project Title
+**Data Quality Control Measures of Academic Institutions Implementation**
+
+---
+
+## 📝 Project Description
+This project develops a Data Quality Control (DQC) framework for university ethics procedure data using cloud technologies. AWS services ensure the reliability, consistency, and accuracy of data needed for zoning, infrastructure, and development.
+
+---
+
+## 🎯 Objective
+To apply an end-to-end DQC system to Academic Institution ethics data using cloud solutions to improve data integrity for planning and management.
+
+---
+
+## 📚 Background
+Academic ethics data includes zoning, land use, and infrastructure records. However, it suffers from format issues, missing values, and inconsistencies. These flaws affect research, service delivery, and compliance. This project addresses such issues using AWS automation and monitoring services.
+
+---
+
+## 🎯 Scope
+- **Data Cleansing:** Remove duplicates automatically  
+- **Data Profiling:** Evaluate data quality and readiness  
+- **Data Validation:** Enforce rules for consistency  
+- **Monitoring & Reporting:** Create dashboards for quality metrics  
+- **Training:** Equip staff to uphold data standards  
+
+---
+
+## 🔍 Methodologies
+
+- **Data Profiling:** AWS Glue DataBrew to assess accuracy, consistency, and anomalies  
+- **Data Cleaning:** AWS Glue ETL for formatting and duplicates  
+- **Monitoring:** AWS CloudWatch alerts for anomalies  
+- **Reporting:** Auto-generate quality reports  
+- **Metrics:** Track missing values, duplicates, schema violations  
+
+---
+
+## 📦 Tools & Technologies
+
+- **Storage:** Amazon S3  
+- **Governance & Validation:** AWS CloudTrail, AWS Lambda  
+- **Profiling & Cleansing:** AWS Glue, DataBrew  
+- **Monitoring & Reporting:** AWS CloudWatch  
+
+---
+
+## 📋 Deliverables
+- High-quality ethics dataset in S3  
+- Comprehensive data quality report  
+- Monitoring dashboard (missing data, errors, geo-inconsistencies)  
+- Staff training content and workshops  
+
+---
+
+## 🗓️ Project Timeline
+**Total Duration:** 4 Weeks
+
+  
