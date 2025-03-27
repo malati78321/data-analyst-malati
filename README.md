@@ -132,7 +132,8 @@ Academic ethics data includes zoning, land use, and infrastructure records. Howe
 - **Monitoring & Reporting:** Create dashboards for quality metrics  
 - **Training:** Equip staff to uphold data standards  
 
----
+
+
 
 ## 🔍 Methodologies
 
@@ -163,5 +164,15 @@ Academic ethics data includes zoning, land use, and infrastructure records. Howe
 
 ## 🗓️ Project Timeline
 **Total Duration:** 4 Weeks
+# Screenshot
+<img src="Picture51.png">
+<img src="Picture52.png">
+<img src="Picture53.png">
+<img src="Picture54.png">
+<img src="Picture55.png">
+<img src="Picture12.png">
+<img src="Picture8.1.png">
+<img src="Picture8.2.png">
+<img src="Picture8.3.png">
 
   
